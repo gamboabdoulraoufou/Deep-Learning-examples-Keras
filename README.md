@@ -4,7 +4,7 @@ In this post, I show an example of using deep learning techniques to identify ob
 
 I will use Convolutional Neural Networks (CNN or Conv Net) algorithm which are very similar to ordinary Neural Networks and CIFAR-10 dataset (60000 32x32 colour images in 10 classes, with 6000 images per class).
 
-In `src` folder, you can find more examples for:
+In `src` folder, you can find more examples for: kk
 - Regression and supervised learning using Multilayer Perceptron (MLP)
 - Image classification with advanced features (image augmentation, ...) using Convolutional Neural Networks (CNN or Conv Net)
 - Time series or text generation using Recurrent Neural Networks (RNN ans specialy LSTM)
