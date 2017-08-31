@@ -51,12 +51,15 @@ from keras.preprocessing.image import ImageDataGenerator
 from matplotlib import pyplot
 ```
 
+    Using Theano backend.
+
+
 
 ```python
 # change some package default options
 %matplotlib inline 
 pyplot.switch_backend('agg')
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 K.set_image_dim_ordering('th')
 ```
 
@@ -91,6 +94,23 @@ for i in range(num_classes):
     im = np.transpose(features_idx[img_num,::], (1, 2, 0))
     ax.set_title(class_names[i])
     pyplot.imshow(im)
+pyplot.show()
+```
+
+
+```python
+fig
+```
+
+
+
+
+![png](img/output_9_0.png)
+
+
+
+
+```python
 pyplot.show()
 ```
 
@@ -296,4 +316,6 @@ print("Accuracy: %.2f%%" % (scores[1]*100))
 
 
 
+```python
 
+```
